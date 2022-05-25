@@ -10,7 +10,7 @@
     <EditText
         android:id="@+id/edtso1"
         android:layout_width="327dp"
-        android:layout_height="46dp"
+        android:layout_height="56dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
         android:background="@drawable/botron"
@@ -21,7 +21,7 @@
     <EditText
         android:id="@+id/edtso2"
         android:layout_width="327dp"
-        android:layout_height="46dp"
+        android:layout_height="56dp"
         android:layout_centerInParent="true"
         android:layout_marginTop="30dp"
         android:hint="Nhập số"
@@ -34,7 +34,7 @@
     <EditText
         android:id="@+id/edtketqua"
         android:layout_width="327dp"
-        android:layout_height="46dp"
+        android:layout_height="56dp"
         android:layout_below="@+id/edtso2"
         android:layout_centerInParent="true"
         android:layout_marginTop="30dp"
