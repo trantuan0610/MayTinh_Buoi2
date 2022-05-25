@@ -13,11 +13,11 @@
         android:layout_height="46dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
+        android:background="@drawable/botron"
         android:hint="Nhập số"
         android:inputType="number"
         android:textColor="@color/black"
-        android:textColorHint="#ACA1A1"
-        android:background="#F4F6FA"/>
+        android:textColorHint="#ACA1A1" />
     <EditText
         android:id="@+id/edtso2"
         android:layout_width="327dp"
@@ -28,7 +28,7 @@
         android:inputType="number"
         android:textColor="@color/black"
         android:textColorHint="#ACA1A1"
-        android:background="#F4F6FA"
+        android:background="@drawable/botron"
         android:layout_below="@+id/edtso1"/>
 
     <EditText
@@ -38,7 +38,7 @@
         android:layout_below="@+id/edtso2"
         android:layout_centerInParent="true"
         android:layout_marginTop="30dp"
-        android:background="#F4F6FA"
+        android:background="@drawable/botron"
         android:enabled="false"
         android:hint="Kết quả"
         android:textColor="@color/black"
@@ -49,6 +49,7 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_below="@+id/edtketqua"
+        android:background="@drawable/botron"
         android:text="+"
         android:layout_margin="20dp"
         />
@@ -59,6 +60,8 @@
         android:layout_below="@+id/edtketqua"
         android:layout_toRightOf="@+id/btnCong"
         android:text="-"
+        android:background="@drawable/botron"
+
         android:layout_margin="20dp"
         />
     <Button
@@ -67,6 +70,8 @@
         android:layout_height="60dp"
         android:layout_below="@+id/edtketqua"
         android:layout_toRightOf="@+id/btnTru"
+        android:background="@drawable/botron"
+
         android:text="*"
         android:layout_margin="20dp"
         />
@@ -76,6 +81,8 @@
         android:layout_height="60dp"
         android:layout_below="@+id/edtketqua"
         android:layout_toRightOf="@id/btnNhan"
+        android:background="@drawable/botron"
+
         android:text="/"
         android:layout_margin="20dp"
         />
